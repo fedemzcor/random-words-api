@@ -11,7 +11,7 @@ get a random word from a socket
 > npm install -g wscat
 ### connect to socket
 > wscat -c wss://{YOUR-API-ID}.execute-api.{YOUR-REGION}.amazonaws.com/dev
-### send "sendmessage" action as json payload
-> {"action":"sendmessage"}
+### send "getRandomWord" action as json payload
+> {"action":"getRandomWord"}
 ### we get a random word :)
 > water
